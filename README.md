@@ -88,9 +88,9 @@ node src/seed.js
 ```
 
 This creates:
-- 1 Admin (`admin@fixmycity.local` / `AdminPass123`)
-- 5 Supervisors (`supervisor1@fixmycity.local` … `supervisor5@fixmycity.local` / `StaffPass123`)
-- 10 Officers (`officer1@fixmycity.local` … `officer10@fixmycity.local` / `StaffPass123`)
+- 1 Admin (`admin@urbantrinetra.local` / `AdminPass123`)
+- 5 Supervisors (`supervisor1@urbantrinetra.local` … `supervisor5@urbantrinetra.local` / `StaffPass123`)
+- 10 Officers (`officer1@urbantrinetra.local` … `officer10@urbantrinetra.local` / `StaffPass123`)
 - 20 Citizens (`citizen1@example.com` … `citizen20@example.com` / `UserPass123`)
 
 ### 5. Seed demo complaints (optional)
