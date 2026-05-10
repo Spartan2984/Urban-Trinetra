@@ -6,14 +6,14 @@ A civic complaint management platform where every claim must be **cryptographica
 
 ## The Problem
 
-Municipal complaint systems fail because there is no way to verify that reported issues are real, or that resolutions are genuine. Citizens file remote complaints. Officers close tickets without doing the work. There is no independent oversight. **FixMyCity** enforces accountability at every step.
+Municipal complaint systems fail because there is no way to verify that reported issues are real, or that resolutions are genuine. Citizens file remote complaints. Officers close tickets without doing the work. There is no independent oversight. **Urban Trinetra** enforces accountability at every step.
 
 ---
 
 ## Architecture
 
 ```
-fixCity/
+Urban Trinetra/
 ├── frontend/         React + Redux SPA (Vite)       → Port 5173
 ├── backend/          Node.js + Express REST API      → Port 5000
 ├── ai-service/       Python FastAPI microservice     → Port 8000
@@ -39,7 +39,7 @@ The three services run concurrently. The backend is the single source of truth �
 
 ```bash
 git clone <your-repo-url>
-cd fixCity
+cd Urban Trinetra
 npm install           # installs root + starts concurrently
 cd backend && npm install
 cd ../frontend && npm install
@@ -180,9 +180,9 @@ All scripts are in `backend/src/scripts/`. Run them from inside `backend/`.
 | Role | Credentials | Capabilities |
 |---|---|---|
 | Citizen | `citizen1@example.com` | File complaints, veto resolutions, vote as auditor |
-| Officer | `officer1@fixmycity.local` | Accept tasks, submit resolution with proof |
-| Supervisor | `supervisor1@fixmycity.local` | Assign tasks, review resolutions, manage team |
-| Admin | `admin@fixmycity.local` | Full access, manual overrides |
+| Officer | `officer1@urbantrinetra.local` | Accept tasks, submit resolution with proof |
+| Supervisor | `supervisor1@urbantrinetra.local` | Assign tasks, review resolutions, manage team |
+| Admin | `admin@urbantrinetra.local` | Full access, manual overrides |
 
 ---
 
