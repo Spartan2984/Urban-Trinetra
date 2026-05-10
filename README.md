@@ -1,4 +1,4 @@
-# FixMyCity — Zero-Trust Municipal Accountability System
+# Urban Trinetra — Zero-Trust Municipal Accountability System
 
 A civic complaint management platform where every claim must be **cryptographically proven**. Citizens cannot file complaints without being physically present. Officers cannot mark work as done without photographic evidence verified by AI. Resolutions can be vetoed and escalated to a randomly selected citizen jury.
 
@@ -63,7 +63,7 @@ cp frontend/.env.example frontend/.env
 **backend/.env** — required fields:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/fix_my_city
+MONGODB_URI=mongodb://localhost:27017/urban-trinetra
 JWT_ACCESS_SECRET=your_access_secret_here
 JWT_REFRESH_SECRET=your_refresh_secret_here
 JWT_RESET_SECRET=your_reset_secret_here
