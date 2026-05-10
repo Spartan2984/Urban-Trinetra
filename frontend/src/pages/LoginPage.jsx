@@ -22,7 +22,7 @@ export function LoginPage() {
   return (
     <main className="auth-page">
       <section className="auth-panel">
-        <h1>Fix My City</h1>
+        <h1>Urban Trinetra</h1>
         <p>Sign in to report, assign, resolve, and audit civic complaints.</p>
         <form onSubmit={handleSubmit(onSubmit)} className="form">
           <Field label="Email" error={errors.email?.message}>
