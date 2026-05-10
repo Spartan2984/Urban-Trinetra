@@ -6,7 +6,7 @@ const start = async () => {
   await connectDb();
 
   app.listen(env.port, () => {
-    console.log(`Fix My City API running on port ${env.port}`);
+    console.log(`Urban Trinetra API running on port ${env.port}`);
   });
 };
 

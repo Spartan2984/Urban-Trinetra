@@ -24,9 +24,9 @@ export function AppLayout() {
     <div className="shell">
       <aside className="sidebar">
         <div className="brand">
-          <span className="brand-mark">FMC</span>
+          <span className="brand-mark">UT</span>
           <div>
-            <strong>Fix My City</strong>
+            <strong>Urban Trinetra</strong>
             <small>{user.role}</small>
           </div>
         </div>

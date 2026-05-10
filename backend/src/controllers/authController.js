@@ -90,7 +90,7 @@ export const forgotPassword = asyncHandler(async (req, res) => {
     const resetUrl = `${env.frontendUrl}/reset-password?token=${resetToken}`;
     await sendEmail({
       to: user.email,
-      subject: 'Fix My City password reset',
+      subject: 'Urban Trinetra password reset',
       text: `Use this link within 15 minutes to reset your password: ${resetUrl}`
     });
     console.log(`Password reset link for ${user.email}: ${resetUrl}`);
